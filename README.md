@@ -61,4 +61,8 @@ Les textes (mission, projets, gestion de l'argent, contact) se modifient directe
 
 ## Mettre le site en ligne
 
-Le site fonctionne tel quel sur GitHub Pages ou sur Netlify : il suffit d'y déposer le dossier.
+Le site est hébergé sur GitHub Pages (dépôt `mamadouourlimby04/horizon-limby`, branche `main`) à l'adresse **https://horizon.limby.site**.
+
+- Le fichier `CNAME` indique ce domaine à GitHub : ne pas le supprimer.
+- Chez LWS (zone DNS de `limby.site`), un enregistrement CNAME `horizon` pointe vers `mamadouourlimby04.github.io.`
+- Pour mettre à jour le site : `git add -A`, `git commit -m "..."`, puis `git push`.
