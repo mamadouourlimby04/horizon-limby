@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Horizon Limby</title>
+<meta name="description" content="Horizon Limby, association des ressortissants de Karakossi (Balaki, Mali, Guinée).">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wide" id="menu"><button id="mb" aria-expanded="false" aria-controls="menu">Menu</button>
+<a href="#accueil" class="brand"><img src="images/logo.png" alt="" width="34" height="34">Horizon Limby</a><a href="#pourquoi">Pourquoi</a><a href="#projets">Projets</a><a href="#sections">Sections</a><a href="#bureau">Bureau</a><a href="#argent">L'argent</a><a href="#contact">Contact</a>
+</div></nav>
+
+<header id="accueil">
+<div class="col">
+<div class="top">
+<div class="logo"><img src="images/logo.png" alt="Logo d'Horizon Limby"></div>
+<div>
+<p class="kicker">Association des ressortissants de Karakossi</p>
+<h1>Horizon Limby</h1>
+<p class="where">Sous-préfecture de Balaki, préfecture de Mali, Guinée</p>
+</div>
+</div>
+<p class="lead">Nous sommes les ressortissants de Karakossi : ceux qui vivent dans la zone et ceux qui sont partis ailleurs. Chaque mois, nous cotisons pour rouvrir l'école et amener l'eau chez nous.</p>
+<div class="facts">
+<div><b>≈ 500</b><span>ressortissants</span></div>
+<div><b>4</b><span>sections</span></div>
+<div><b>4 août 2024</b><span>date de création</span></div>
+</div>
+</div>
+</header>
+
+<section><div class="col">
+<figure class="mot reveal">
+<blockquote>
+<p>J'ai créé Horizon Limby le 4 août 2024. Chez nous, à Karakossi, beaucoup de jeunes partent parce qu'il n'y a pas d'école, pas d'eau et pas de travail.</p>
+<p>Moi-même, je vis loin de la zone, comme beaucoup d'entre nous. Mais nous voulons que ceux qui restent puissent étudier, se soigner et gagner leur vie sur place.</p>
+<p>Aujourd'hui, nous sommes environ 500 ressortissants, répartis dans quatre sections. Chaque mois, nous montrons à tous les membres qui a cotisé et combien il y a sur le compte.</p>
+<p>Merci à tous ceux qui participent.</p>
+</blockquote>
+<figcaption class="who"><img src="images/oury.jpg" alt="Diallo Mamadou Oury"><div><b>Diallo Mamadou Oury</b><span>Président et fondateur</span></div></figcaption>
+</figure>
+</div></section>
+
+<section id="pourquoi"><div class="col reveal">
+<h2>Pourquoi l'association</h2>
+<p>La zone de Karakossi se vide. Les jeunes partent vers les villes ou à l'étranger pour étudier ou pour travailler, et peu reviennent.</p>
+<p class="pull">Pour nous, la seule vraie solution est que les gens trouvent sur place de quoi s'éduquer, se soigner et gagner leur vie. C'est pour cela que nous avons créé Horizon Limby.</p>
+</div></section>
+
+<section id="projets"><div class="col">
+<h2>Nos projets</h2>
+<p>En ce moment, l'argent collecté sert à deux projets :</p>
+<div class="cards reveal">
+<article class="card now-card"><span class="tag now">en cours</span><h3>Rouvrir l'école</h3><p>Pour que les enfants de la zone puissent étudier chez eux.</p></article>
+<article class="card now-card water"><span class="tag now">en cours</span><h3>Amener l'eau</h3><p>Pour que toute la population ait accès à l'eau potable.</p></article>
+</div>
+<p>Plus tard, nous voulons lancer des projets :</p>
+<div class="cards reveal">
+<article class="card later-card"><span class="tag later">à venir</span><h3>Agriculture</h3></article>
+<article class="card later-card"><span class="tag later">à venir</span><h3>Élevage</h3></article>
+</div>
+<p class="soft">Le but est que les habitants aient du travail et des revenus sans devoir partir.</p>
+</div></section>
+
+<section id="sections"><div class="col">
+<h2>Nos sections</h2>
+<p>L'association est organisée en quatre sections. Chacune a son représentant.</p>
+<div class="bar reveal" id="bar" aria-hidden="true"></div>
+<div class="scroll"><table>
+<thead><tr><th>Section</th><th>Représentant</th><th class="num">Ressortissants</th></tr></thead>
+<tbody id="secs"></tbody>
+<tfoot><tr><td>Total</td><td></td><td class="num" id="tot"></td></tr></tfoot>
+</table></div>
+</div></section>
+
+<section id="bureau"><div class="wide">
+<div class="col" style="padding:0"><h2>Le bureau</h2></div>
+<div class="team" id="team"></div>
+</div></section>
+
+<section id="argent"><div class="col">
+<h2>Comment l'argent est géré</h2>
+<ol class="flow reveal">
+<li><span class="step">1</span><div><h3>On collecte dans chaque section</h3><p>M. Diawne Souleymane à Karakossi, M. Diallo Ibrahima à Souloudena et Diallo Abdoulaye en Côte d'Ivoire.</p></div></li>
+<li><span class="step">2</span><div><h3>Tout est remis à M. Diallo Mamadou Alpha</h3><p>Il collecte aussi à Labé et à Conakry, puis verse le tout sur le compte de l'association.</p></div></li>
+<li><span class="step">3</span><div><h3>Le compte de l'association</h3><p>Le président, le vice-président et M. Diallo Mamadou Alpha y ont accès.</p></div></li>
+<li><span class="step">4</span><div><h3>Tout le monde peut vérifier</h3><p>Après chaque collecte, nous publions la liste de ceux qui ont cotisé, avec le solde du compte avant et après la collecte.</p></div></li>
+</ol>
+</div></section>
+
+<section id="contact"><div class="col">
+<h2>Nous contacter</h2>
+<p>Pour cotiser ou avoir des nouvelles, adressez-vous au représentant de votre section, ou écrivez-nous sur notre page Facebook Horizon Limby.</p>
+<div class="contacts reveal">
+<div class="ct"><span>Karakossi</span><b>M. Diawne Souleymane</b></div>
+<div class="ct"><span>Labé – Conakry</span><b>M. Diallo Mamadou Alpha</b></div>
+<div class="ct"><span>Côte d'Ivoire</span><b>M. Diallo Mamadou Aliou</b></div>
+<div class="ct"><span>Zone frontalière (Souloudena)</span><b>M. Diallo Ibrahima</b></div>
+</div>
+</div></section>
+
+<footer><div class="col">
+<img src="images/logo.png" alt="Horizon Limby">
+<span style="flex:1 1 260px">Horizon Limby, association des ressortissants de Karakossi (Balaki, Mali, Guinée). Créée le 4 août 2024.</span>
+<button id="share" class="btn">Copier le lien du site</button>
+<a href="#accueil">Haut de page</a>
+</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
